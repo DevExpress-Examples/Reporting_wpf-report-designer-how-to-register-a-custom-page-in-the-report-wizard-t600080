@@ -10,9 +10,9 @@ using DevExpress.XtraReports.Wizards.Views;
 
 namespace CustomReportWizard {
     class CustomChooseReportTypePage : ChooseReportTypePage<XtraReportModel> {
-        public CustomChooseReportTypePage(IChooseReportTypePageView view, IEnumerable<SqlDataConnection> dataConnections,
+        public CustomChooseReportTypePage(IChooseReportTypePageView view, IConnectionStorageService connectionStorageService,
             DataSourceTypes dataSourceTypes, IWizardRunnerContext context, ISolutionTypesProvider solutionTypesProvider) : 
-            base(view, dataConnections, dataSourceTypes, context, solutionTypesProvider) { }
+            base(view, connectionStorageService, dataSourceTypes, context, solutionTypesProvider) { }
 
         public override bool MoveNextEnabled {
             get { return true; }
