@@ -15,8 +15,8 @@ Namespace CustomReportWizard
     Friend Class CustomChooseReportTypePage
         Inherits ChooseReportTypePage(Of XtraReportModel)
 
-        Public Sub New(ByVal view As IChooseReportTypePageView, ByVal dataConnections As IEnumerable(Of SqlDataConnection), ByVal dataSourceTypes As DataSourceTypes, ByVal context As IWizardRunnerContext, ByVal solutionTypesProvider As ISolutionTypesProvider)
-            MyBase.New(view, dataConnections, dataSourceTypes, context, solutionTypesProvider)
+        Public Sub New(ByVal view As IChooseReportTypePageView, ByVal connectionStorageService As IConnectionStorageService, ByVal dataSourceTypes As DataSourceTypes, ByVal context As IWizardRunnerContext, ByVal solutionTypesProvider As ISolutionTypesProvider)
+            MyBase.New(view, connectionStorageService, dataSourceTypes, context, solutionTypesProvider)
         End Sub
 
         Public Overrides ReadOnly Property MoveNextEnabled() As Boolean
