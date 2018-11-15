@@ -1,3 +1,13 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [App.xaml](./CS/CustomReportWizard/App.xaml)
+* **[ChoosePageSettingsPage.cs](./CS/CustomReportWizard/ChoosePageSettingsPage.cs) (VB: [ChoosePageSettingsPage.vb](./VB/CustomReportWizard/ChoosePageSettingsPage.vb))**
+* [CustomChooseReportTypePage.cs](./CS/CustomReportWizard/CustomChooseReportTypePage.cs) (VB: [CustomChooseReportTypePage.vb](./VB/CustomReportWizard/CustomChooseReportTypePage.vb))
+* [CustomReportModel.cs](./CS/CustomReportWizard/CustomReportModel.cs) (VB: [CustomReportModel.vb](./VB/CustomReportWizard/CustomReportModel.vb))
+* [MainWindow.xaml](./CS/CustomReportWizard/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/CustomReportWizard/MainWindow.xaml))
+* [WizardCustomizationService.cs](./CS/CustomReportWizard/WizardCustomizationService.cs) (VB: [WizardCustomizationService.vb](./VB/CustomReportWizard/WizardCustomizationService.vb))
+<!-- default file list end -->
 # WPF Report Designer - How to register a custom page in the Report Wizard
 
 
